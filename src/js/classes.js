@@ -1,49 +1,43 @@
 import Character from './character';
 export class Bowman extends Character {
     constructor(name) {
-        super(name);
+        super(name, 'Bowman');
         this.attack = 25;
         this.defence = 25;
-        this.type = 'Bowman';
     }
 }
 export class Swordsman extends Character {
     constructor(name) {
-        super(name);
+        super(name, 'Swordsman');
         this.attack = 40;
         this.defence = 10;
-        this.type = 'Swordsman';
     }
 }
 export class Magician extends Character {
     constructor(name) {
-        super(name);
+        super(name, 'Magician');
         this.attack = 10;
         this.defence = 40;
-        this.type = 'Magician';
     }
 }
 export class Daemon extends Character {
     constructor(name) {
-        super(name);
+        super(name, 'Daemon');
         this.attack = 10;
         this.defence = 40;
-        this.type = 'Daemon';
     }
 }
 export class Undead extends Character {
     constructor(name) {
-        super(name);
+        super(name, 'Undead');
         this.attack = 25;
         this.defence = 25;
-        this.type = 'Undead';
     }
 }
 export class Zombie extends Character {
     constructor(name) {
-        super(name);
+        super(name, 'Zombie');
         this.attack = 40;
         this.defence = 10;
-        this.type = 'Zombie';
     }
 }
